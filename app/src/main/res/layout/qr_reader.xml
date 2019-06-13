@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+            android:id="@+id/_zXingScannerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    android:gravity="end">
+
+        <ImageView
+                android:padding="8dp"
+                android:background="@drawable/blue_bg"
+                android:id="@+id/_imagePicker"
+                android:foreground="@drawable/white_ripple_fg_round"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_scanfile"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                tools:ignore="UnusedAttribute"
+                android:contentDescription="@string/pick_photo"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|bottom">
+
+        <ImageView
+                android:id="@+id/_flash"
+                android:foreground="@drawable/white_ripple_fg_round"
+                android:layout_margin="80dp"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                tools:ignore="UnusedAttribute"
+                android:contentDescription="@string/lantern"/>
+    </LinearLayout>
+
+</RelativeLayout>

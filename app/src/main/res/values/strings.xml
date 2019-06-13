@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Qr Master</string>
+    <string name="powered_by_richard_anca">Powered by Richard Anca</string>
+    <string name="generate">Generate</string>
+    <string name="qr_master">QR Master</string>
+    <string name="read_qr">Read QR</string>
+    <string name="create_qr">Create QR</string>
+    <string name="_0_2950">0/2950</string>
+    <string name="type_your_text">Type your text</string>
+    <string name="text_icon">text icon</string>
+    <string name="pick_photo">pick photo</string>
+    <string name="lantern">lantern</string>
+</resources>

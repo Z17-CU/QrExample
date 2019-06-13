@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:context="com.example.qrmaster.MainActivity"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="#1E80E9"
+                  android:gravity="center_horizontal">
+        <ImageButton
+                android:background="@drawable/green_ripple_bg"
+                android:layout_margin="20dp"
+                android:padding="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_readqr"
+                android:scaleType="centerCrop"
+                android:id="@+id/_read"
+                android:contentDescription="@string/read_qr"/>
+
+        <ImageButton
+                android:background="@drawable/red_ripple_bg"
+                android:layout_margin="20dp"
+                android:padding="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_create"
+                android:scaleType="centerCrop"
+                android:id="@+id/_generate"
+                android:text="@string/generate"
+                android:contentDescription="@string/create_qr"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:text="@string/powered_by_richard_anca"
+            android:textColor="#5BFFFFFF"
+            android:gravity="end|bottom"
+            android:padding="4dp"
+            android:textSize="8sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:ignore="SmallSp"/>
+
+</android.support.constraint.ConstraintLayout>
